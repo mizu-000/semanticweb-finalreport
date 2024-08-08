@@ -1,0 +1,171 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/年>
+        a                rdfs:Class ;
+        rdfs:subClassOf  <https://www.city.yokohama.lg.jp/city-info/yokohamashi/tokei-chosa/portal/opendata/bukka-shisu.files/bukka-shisu.csv> .
+
+<http://example.org/住居>
+        rdfs:subPropertyOf  <http://example.org/指数> .
+
+<http://example.org/被服及び履物>
+        rdfs:subPropertyOf  <http://example.org/指数> .
+
+<http://example.org/2023>
+        a                             <http://example.org/年> ;
+        <http://example.org/交通・通信>    "94.9" ;
+        <http://example.org/住居>       "101" ;
+        <http://example.org/保健医療>     "100.8" ;
+        <http://example.org/光熱・水道>    "111.8" ;
+        <http://example.org/家具・家事用品>  "116.1" ;
+        <http://example.org/教育>       "101.6" ;
+        <http://example.org/教養娯楽>     "108" ;
+        <http://example.org/総合>       "105.2" ;
+        <http://example.org/被服及び履物>   "106" ;
+        <http://example.org/諸雑費>      "103.6" ;
+        <http://example.org/食料>       "112.2" .
+
+<http://example.org/2019>
+        a                             <http://example.org/年> ;
+        <http://example.org/交通・通信>    "99.8" ;
+        <http://example.org/住居>       "99.4" ;
+        <http://example.org/保健医療>     "99.6" ;
+        <http://example.org/光熱・水道>    "103" ;
+        <http://example.org/家具・家事用品>  "94.1" ;
+        <http://example.org/教育>       "112.1" ;
+        <http://example.org/教養娯楽>     "101.6" ;
+        <http://example.org/総合>       "100.3" ;
+        <http://example.org/被服及び履物>   "98.6" ;
+        <http://example.org/諸雑費>      "102" ;
+        <http://example.org/食料>       "99.1" .
+
+<http://example.org/2022>
+        a                             <http://example.org/年> ;
+        <http://example.org/交通・通信>    "92" ;
+        <http://example.org/住居>       "100.3" ;
+        <http://example.org/保健医療>     "99.1" ;
+        <http://example.org/光熱・水道>    "119.6" ;
+        <http://example.org/家具・家事用品>  "108" ;
+        <http://example.org/教育>       "100.2" ;
+        <http://example.org/教養娯楽>     "103.1" ;
+        <http://example.org/総合>       "102" ;
+        <http://example.org/被服及び履物>   "103" ;
+        <http://example.org/諸雑費>      "101.8" ;
+        <http://example.org/食料>       "104.1" .
+
+<http://example.org/総合>
+        rdfs:subPropertyOf  <http://example.org/指数> .
+
+<http://example.org/指数>
+        a       rdf:Property .
+
+<http://example.org/2018>
+        a                             <http://example.org/年> ;
+        <http://example.org/交通・通信>    "100.7" ;
+        <http://example.org/住居>       "99.3" ;
+        <http://example.org/保健医療>     "99.2" ;
+        <http://example.org/光熱・水道>    "99.8" ;
+        <http://example.org/家具・家事用品>  "90" ;
+        <http://example.org/教育>       "115.4" ;
+        <http://example.org/教養娯楽>     "99.8" ;
+        <http://example.org/総合>       "99.6" ;
+        <http://example.org/被服及び履物>   "97" ;
+        <http://example.org/諸雑費>      "102.2" ;
+        <http://example.org/食料>       "98.1" .
+
+<http://example.org/保健医療>
+        rdfs:subPropertyOf  <http://example.org/指数> .
+
+<http://example.org/食料>
+        rdfs:subPropertyOf  <http://example.org/指数> .
+
+<http://example.org/2021>
+        a                             <http://example.org/年> ;
+        <http://example.org/交通・通信>    "94.3" ;
+        <http://example.org/住居>       "100.2" ;
+        <http://example.org/保健医療>     "99.8" ;
+        <http://example.org/光熱・水道>    "100.2" ;
+        <http://example.org/家具・家事用品>  "103.3" ;
+        <http://example.org/教育>       "99.7" ;
+        <http://example.org/教養娯楽>     "102.1" ;
+        <http://example.org/総合>       "99.7" ;
+        <http://example.org/被服及び履物>   "101.7" ;
+        <http://example.org/諸雑費>      "101.1" ;
+        <http://example.org/食料>       "99.7" .
+
+<http://example.org/2017>
+        a                             <http://example.org/年> ;
+        <http://example.org/交通・通信>    "100.1" ;
+        <http://example.org/住居>       "100" ;
+        <http://example.org/保健医療>     "97.5" ;
+        <http://example.org/光熱・水道>    "95.8" ;
+        <http://example.org/家具・家事用品>  "92.8" ;
+        <http://example.org/教育>       "114.8" ;
+        <http://example.org/教養娯楽>     "97.8" ;
+        <http://example.org/総合>       "98.7" ;
+        <http://example.org/被服及び履物>   "96" ;
+        <http://example.org/諸雑費>      "101.3" ;
+        <http://example.org/食料>       "96.7" .
+
+<http://example.org/家具・家事用品>
+        rdfs:subPropertyOf  <http://example.org/指数> .
+
+<http://example.org/2020>
+        a                             <http://example.org/年> ;
+        <http://example.org/交通・通信>    "100" ;
+        <http://example.org/住居>       "100" ;
+        <http://example.org/保健医療>     "100" ;
+        <http://example.org/光熱・水道>    "100" ;
+        <http://example.org/家具・家事用品>  "100" ;
+        <http://example.org/教育>       "100" ;
+        <http://example.org/教養娯楽>     "100" ;
+        <http://example.org/総合>       "100" ;
+        <http://example.org/被服及び履物>   "100" ;
+        <http://example.org/諸雑費>      "100" ;
+        <http://example.org/食料>       "100" .
+
+<http://example.org/2016>
+        a                             <http://example.org/年> ;
+        <http://example.org/交通・通信>    "100.3" ;
+        <http://example.org/住居>       "100.5" ;
+        <http://example.org/保健医療>     "96.4" ;
+        <http://example.org/光熱・水道>    "94.4" ;
+        <http://example.org/家具・家事用品>  "92.5" ;
+        <http://example.org/教育>       "114.6" ;
+        <http://example.org/教養娯楽>     "97.1" ;
+        <http://example.org/総合>       "98.6" ;
+        <http://example.org/被服及び履物>   "95.7" ;
+        <http://example.org/諸雑費>      "101" ;
+        <http://example.org/食料>       "96.6" .
+
+<http://example.org/諸雑費>
+        rdfs:subPropertyOf  <http://example.org/指数> .
+
+<https://www.city.yokohama.lg.jp/city-info/yokohamashi/tokei-chosa/portal/opendata/bukka-shisu.files/bukka-shisu.csv>
+        a       rdfs:Class .
+
+<http://example.org/教養娯楽>
+        rdfs:subPropertyOf  <http://example.org/指数> .
+
+<http://example.org/交通・通信>
+        rdfs:subPropertyOf  <http://example.org/指数> .
+
+<http://example.org/2015>
+        a                             <http://example.org/年> ;
+        <http://example.org/交通・通信>    "102.1" ;
+        <http://example.org/住居>       "100.4" ;
+        <http://example.org/保健医療>     "95.3" ;
+        <http://example.org/光熱・水道>    "104.8" ;
+        <http://example.org/家具・家事用品>  "92.8" ;
+        <http://example.org/教育>       "113.3" ;
+        <http://example.org/教養娯楽>     "96.2" ;
+        <http://example.org/総合>       "98.8" ;
+        <http://example.org/被服及び履物>   "94.5" ;
+        <http://example.org/諸雑費>      "100.3" ;
+        <http://example.org/食料>       "95.4" .
+
+<http://example.org/教育>
+        rdfs:subPropertyOf  <http://example.org/指数> .
+
+<http://example.org/光熱・水道>
+        rdfs:subPropertyOf  <http://example.org/指数> .
